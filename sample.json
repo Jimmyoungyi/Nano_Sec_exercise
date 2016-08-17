@@ -1,0 +1,27 @@
+{
+	"returnCode":200,
+	"data":[{"src":"agent","dest":"logsvc", "date":"2015-06-01"},
+			{"src":"ux","dest":"websvc", "date":"2015-06-01"},
+			{"src":"websvc","dest":"mongo", "date":"2015-06-01"},
+			{"src":"dope","dest":"mongo", "date":"2015-06-01"},
+			{"src":"*:*","dest":"ux", "date":"2015-06-01"},
+			{"src":"logsvc","dest":"mongo", "date":"2015-06-01"},
+			{"src":"ux","dest":"regsvc", "date":"2015-06-01"},
+			{"src":"ux","dest":"*:*", "date":"2015-06-01"},
+			{"srcApp":"all","src":"*","dest":"ux", "date":"2015-06-01"},
+			{"src":"kds","dest":"mongo", "date":"2015-06-01"},
+
+			{"src":"ux","dest":"websvc", "date":"2015-06-02"},
+			{"src":"websvc","dest":"mongo", "date":"2015-06-02"},
+			{"src":"dope","dest":"mongo", "date":"2015-06-02"},
+			{"src":"*:*","dest":"ux", "date":"2015-06-02"},
+			{"src":"logsvc","dest":"mongo", "date":"2015-06-02"},
+			{"src":"ux","dest":"regsvc", "date":"2015-06-02"},
+			{"src":"ux","dest":"*:*", "date":"2015-06-02"},
+			{"src":"kds","dest":"mongo", "date":"2015-06-02"},
+
+			{"src":"websvc","dest":"mongo", "date":"2015-06-03"},
+			{"src":"dope","dest":"mongo", "date":"2015-06-03"},
+			{"src":"logsvc","dest":"mongo", "date":"2015-06-03"},
+			{"src":"kds","dest":"mongo", "date":"2015-06-03"}],
+	"msg":"Success"}
